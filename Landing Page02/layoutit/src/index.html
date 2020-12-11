@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kuyyow Equestrian Club</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+<body> 
+   <nav class="navbar">
+       <div class="content">
+         <div class="logo">
+           <a href="#">Kuyyow Equestrian Club </a>
+         </div>
+         <ul class="menu-list">
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="features.html">Features</a></li>
+           <li><a href="contact.html">Contact</a></li>
+         </ul>
+         <div class="icon menu-btn">
+           <i class="fas fa-bars"></i>
+         </div>
+       </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h2>
+                        Kuyyow Equestrian Club
+                    </h2>
+                    <p>
+                        Selamat datang di Kuyyow Equestrian Club, wisata berkuda yang berpengalaman dalam menemani liburan anda dan keluarga. Kami melayani segala keperluan keluarga anda disana dari mulai wisata berkuda, restoran, maupun penginapan di wilayah kami, Bogor. Ada yang menarik nih untuk anda. Kami menawarkan beberapa macam promosi yang harganya terjangkau bagi anda! Silakan cek bagian fitur untuk melihat wisata apa saja yang kami sediakan + harga promosinya. Kuyyow Equestrian Club didirikan pada 24 April 2014 oleh Mr.Budi. Kuyyow Equestrian Club setiap hari bisa menerima parawisatawan hingga 500 orang per hari. Hingga saat ini, Kuyyow Equestrian Club telah mencapai target parawisatawan lebih dari seratus ribu pemgunjung! Kami juga menerapkan standar protokol kesehatan dalam pelaksanaan wisata keluarga tersebut, jika anda berminat untuk bersantai dan bersenang-senang bersama keluarga bisa anda dapatkan di Kuyyow Equestrian Aja.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" alt="Bootstrap Thumbnail First" src="img_7499.jpg" />
+                            <div class="card-block">
+                                <h5 class="card-title">
+									Berkuda dan berkebun
+								</h5>
+								<p class="card-text">
+									Rasakan sensasi berkuda dan berkebun bersama teman-teman dan keluarga anda disini.
+								</p>
+                                <p>
+                                    <a class="btn btn-primary" href="features.html">Sign up</a> 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" alt="Bootstrap Thumbnail Second" src="img_1612.jpg" />
+                            <div class="card-block">
+                                <h5 class="card-title">
+									Berkuda santai
+								</h5>
+								<p class="card-text">
+									Berkuda dan bermain dengan aman, asik, untuk anak-anak anda hadir disini.   
+								</p>
+                                <p>
+                                    <a class="btn btn-primary" href="features.html">Sign up</a> 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" alt="Bootstrap Thumbnail Third" src="img_7638.jpg" />
+                            <div class="card-block">
+                                <h5 class="card-title">
+									Atraksi berkuda  
+								</h5>
+								<p class="card-text">
+									Penampilan atraksi berkuda yang menakjubkan hadir untuk anda dan keluarga. 
+								</p>
+                                <p>
+                                    <a class="btn btn-primary" href="features.html">Sign up</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <br>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="carousel slide" id="carousel-289293">
+					<div class="carousel-item active">
+						<img id="tempat3" class="d-block w-100" alt="Carousel Bootstrap Third" src="img_1231.jpg">
+						<div id="alamat" class="carousel-caption">
+							<h4>
+								Alamat 
+							</h4>
+							<p>
+								Jalan Raya Puncak, Cipayung Datar, Kec. Megamendung, Bogor, Jawa Barat 16770.
+                  				Jam buka: jam 09.00.
+                  				Telepon: 085156866078
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+        
+        <script>
+            const body = document.querySelector("body");
+            const navbar = document.querySelector(".navbar");
+            const menuBtn = document.querySelector(".menu-btn");
+            const cancelBtn = document.querySelector(".cancel-btn");
+            menuBtn.onclick = ()=>{
+              navbar.classList.add("show");
+              menuBtn.classList.add("hide");
+              body.classList.add("disabled");
+            }
+            window.onscroll = ()=>{
+              this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+            }
+        </script> 
+
+</body>
+</html>

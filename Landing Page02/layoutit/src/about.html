@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kuyyow Equestrian Club</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+<body> 
+   <nav class="navbar">
+       <div class="content">
+         <div class="logo">
+           <a href="#">Kuyyow Equestrian Club </a>
+         </div>
+         <ul class="menu-list">
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="features.html">Features</a></li>
+           <li><a href="contact.html">Contact</a></li>
+         </ul>
+         <div class="icon menu-btn">
+           <i class="fas fa-bars"></i>
+         </div>
+       </div>
+    </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <img id="gambar" alt="Bootstrap Image Preview" src="img_1232.jpg" />
+                    <p>
+                        Kuyyow Equestrian Club adalah wisata berkuda yang berpengalaman dalam menemani liburan anda dan keluarga. Kami melayani segala keperluan keluarga anda disana dari mulai wisata berkuda, restoran, maupun penginapan di wilayah kami, Bogor. Kuyyow Equestrian Club didirikan pada 24 April 2014 oleh Mr.Budi. Kuyyow Equestrian Club setiap hari bisa menerima parawisatawan hingga 500 orang per hari. Hingga saat ini, Kuyyow Equestrian Club telah mencapai target parawisatawan lebih dari seratus ribu pemgunjung! Kami juga menerapkan standar protokol kesehatan dalam pelaksanaan wisata keluarga tersebut, jika anda berminat untuk bersantai dan bersenang-senang bersama keluarga bisa anda dapatkan di Kuyyow Equestrian Aja.
+                    </p>
+                </div>
+            </div>
+        </div>   
+    <br>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="carousel slide" id="carousel-289293">
+					<div class="carousel-item active">
+						<img id="tempat3" class="d-block w-100" alt="Carousel Bootstrap Third" src="img_1231.jpg">
+						<div id="alamat" class="carousel-caption">
+							<h4>
+								Alamat 
+							</h4>
+							<p>
+								Jalan Raya Puncak, Cipayung Datar, Kec. Megamendung, Bogor, Jawa Barat 16770.
+                                Jam buka: jam 09.00.
+                                Telepon: 085156866078
+							</p>
+						</div>
+					</div>
+			</div>
+		</div>
+    </div>
+    
+    <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+          navbar.classList.add("show");
+          menuBtn.classList.add("hide");
+          body.classList.add("disabled");
+        }
+        window.onscroll = ()=>{
+          this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+    </script> 
+
+</body>
+</html>
